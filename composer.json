@@ -1,0 +1,30 @@
+{
+    "name": "svkurowski/yii2-shell",
+    "version": "1.0.0",
+    "type": "yii2-extension",
+    "description": "An interactive shell for Yii 2 projects.",
+    "keywords": ["yii2", "console", "shell", "repl"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/svkurowski/yii2-shell/issues",
+        "source": "https://github.com/svkurowski/yii2-shell"
+    },
+    "authors": [
+        {
+            "name": "Sascha Vincent Kurowski",
+            "email": "svkurowski@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "psy/psysh": "0.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "svkurowski\\shell\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "svkurowski\\shell\\Bootstrap"
+    }
+}
